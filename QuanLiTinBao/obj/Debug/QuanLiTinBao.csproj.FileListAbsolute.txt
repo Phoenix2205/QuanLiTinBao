@@ -107,3 +107,5 @@ c:\users\vannt\documents\visual studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\b
 c:\users\vannt\documents\visual studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\bin\Debug\ja\DevExpress.Office.v16.1.Core.resources.dll
 c:\users\vannt\documents\visual studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\bin\Debug\ru\DevExpress.Office.v16.1.Core.resources.dll
 c:\users\vannt\documents\visual studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\obj\Debug\QuanLiTinBao.exe.licenses
+C:\Users\vannt\Documents\Visual Studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\obj\Debug\QuanLiTinBao.Chuye.resources
+C:\Users\vannt\Documents\Visual Studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\obj\Debug\QuanLiTinBao.FormXuLiKhac.resources

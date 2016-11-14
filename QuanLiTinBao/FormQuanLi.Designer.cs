@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormQuanLi));
             this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.icon_managment = new DevExpress.XtraBars.Navigation.AccordionControl();
@@ -43,50 +44,85 @@
             this.navframe_content_managment = new DevExpress.XtraBars.Navigation.NavigationFrame();
             this.navigationPage1 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.page_tinbao = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.gridcontrol_tinbao = new DevExpress.XtraGrid.GridControl();
+            this.tinBaoBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qLTBDataSet2BindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.qLTBDataSet2 = new QuanLiTinBao.QLTBDataSet2();
+            this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.colSoTinBao = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNgayNhan = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNoiDung = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colTinhTrang = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colDiaBan = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colGhiChu = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colKetQua = new DevExpress.XtraGrid.Columns.GridColumn();
             this.navigationPage3 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.navigationPage4 = new DevExpress.XtraBars.Navigation.NavigationPage();
             this.navigationPage5 = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.navigationPage6 = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.navigationPage7 = new DevExpress.XtraBars.Navigation.NavigationPage();
-            this.gridcontrol_tinbao = new DevExpress.XtraGrid.GridControl();
-            this.layoutView1 = new DevExpress.XtraGrid.Views.Layout.LayoutView();
-            this.layoutViewCard1 = new DevExpress.XtraGrid.Views.Layout.LayoutViewCard();
-            this.qLTBDataSet2 = new QuanLiTinBao.QLTBDataSet2();
-            this.qLTBDataSet2BindingSource = new System.Windows.Forms.BindingSource();
-            this.tinBaoBindingSource = new System.Windows.Forms.BindingSource();
+            this.page_ccq = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.gridControl_ccq = new DevExpress.XtraGrid.GridControl();
+            this.qltbDataSet21 = new QuanLiTinBao.QLTBDataSet2();
+            this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.colSoQuyetDinh = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colCanBo = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNgayXuLy = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colSoTinBao1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colCoQuanChuyen = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.page_xlk = new DevExpress.XtraBars.Navigation.NavigationPage();
+            this.gridControl_xlk = new DevExpress.XtraGrid.GridControl();
+            this.qltbDataSet22 = new QuanLiTinBao.QLTBDataSet2();
+            this.gridView3 = new DevExpress.XtraGrid.Views.Grid.GridView();
+            this.colSoQuyetDinh1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colCanBo1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNgayXuLy1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colSoTinBao2 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.colNoiDung1 = new DevExpress.XtraGrid.Columns.GridColumn();
+            this.menutinbao1 = new System.Windows.Forms.MenuStrip();
+            this.lưuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thêmToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sửaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xóaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xuấtExcelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menutinbao2 = new System.Windows.Forms.MenuStrip();
+            this.fileToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.lưuToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.thêmToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.sửaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.xóaToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.xuấtExcelToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.nghiệpVụToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.khởiTốToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.khôngKhởiTốToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xửPhạtHànhChínhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.chuyểnCơQuanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.xửLýKhácToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tinBaoTableAdapter = new QuanLiTinBao.QLTBDataSet2TableAdapters.TinBaoTableAdapter();
-            this.colSoTinBao = new DevExpress.XtraGrid.Columns.LayoutViewColumn();
-            this.colNgayNhan = new DevExpress.XtraGrid.Columns.LayoutViewColumn();
-            this.colNoiDung = new DevExpress.XtraGrid.Columns.LayoutViewColumn();
-            this.colTinhTrang = new DevExpress.XtraGrid.Columns.LayoutViewColumn();
-            this.colDiaBan = new DevExpress.XtraGrid.Columns.LayoutViewColumn();
-            this.colGhiChu = new DevExpress.XtraGrid.Columns.LayoutViewColumn();
-            this.colKetQua = new DevExpress.XtraGrid.Columns.LayoutViewColumn();
-            this.layoutViewField_colSoTinBao = new DevExpress.XtraGrid.Views.Layout.LayoutViewField();
-            this.layoutViewField_colNgayNhan = new DevExpress.XtraGrid.Views.Layout.LayoutViewField();
-            this.layoutViewField_colNoiDung = new DevExpress.XtraGrid.Views.Layout.LayoutViewField();
-            this.layoutViewField_colTinhTrang = new DevExpress.XtraGrid.Views.Layout.LayoutViewField();
-            this.layoutViewField_colDiaBan = new DevExpress.XtraGrid.Views.Layout.LayoutViewField();
-            this.layoutViewField_colGhiChu = new DevExpress.XtraGrid.Views.Layout.LayoutViewField();
-            this.layoutViewField_colKetQua = new DevExpress.XtraGrid.Views.Layout.LayoutViewField();
+            this.tinBaoTableAdapter1 = new QuanLiTinBao.QLTBDataSet2TableAdapters.TinBaoTableAdapter();
+            this.label_tentieude = new DevExpress.XtraEditors.LabelControl();
+            this.xuatExcelDialog = new System.Windows.Forms.SaveFileDialog();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.chuyenCoQuanTableAdapter1 = new QuanLiTinBao.QLTBDataSet2TableAdapters.ChuyenCoQuanTableAdapter();
+            this.xuLyKhacTableAdapter1 = new QuanLiTinBao.QLTBDataSet2TableAdapters.XuLyKhacTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.icon_managment)).BeginInit();
             this.panel_content.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navframe_content_managment)).BeginInit();
             this.navframe_content_managment.SuspendLayout();
             this.page_tinbao.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridcontrol_tinbao)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewCard1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLTBDataSet2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLTBDataSet2BindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tinBaoBindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colSoTinBao)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colNgayNhan)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colNoiDung)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colTinhTrang)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colDiaBan)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colGhiChu)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colKetQua)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLTBDataSet2BindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLTBDataSet2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
+            this.page_ccq.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl_ccq)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qltbDataSet21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).BeginInit();
+            this.page_xlk.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl_xlk)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qltbDataSet22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).BeginInit();
+            this.menutinbao1.SuspendLayout();
+            this.menutinbao2.SuspendLayout();
             this.SuspendLayout();
             // 
             // simpleButton1
@@ -97,7 +133,7 @@
             this.simpleButton1.ImageLocation = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
             this.simpleButton1.Location = new System.Drawing.Point(0, 55);
             this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(53, 33);
+            this.simpleButton1.Size = new System.Drawing.Size(51, 33);
             this.simpleButton1.TabIndex = 1;
             this.simpleButton1.Text = "simpleButton1";
             this.simpleButton1.Click += new System.EventHandler(this.btn_menu_Click);
@@ -217,9 +253,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel_content.BackColor = System.Drawing.Color.White;
             this.panel_content.Controls.Add(this.navframe_content_managment);
-            this.panel_content.Location = new System.Drawing.Point(54, 89);
+            this.panel_content.Controls.Add(this.menutinbao1);
+            this.panel_content.Controls.Add(this.menutinbao2);
+            this.panel_content.Location = new System.Drawing.Point(51, 89);
             this.panel_content.Name = "panel_content";
-            this.panel_content.Size = new System.Drawing.Size(1011, 435);
+            this.panel_content.Size = new System.Drawing.Size(1021, 435);
             this.panel_content.TabIndex = 4;
             // 
             // navframe_content_managment
@@ -233,9 +271,9 @@
             this.navframe_content_managment.Controls.Add(this.navigationPage3);
             this.navframe_content_managment.Controls.Add(this.navigationPage4);
             this.navframe_content_managment.Controls.Add(this.navigationPage5);
-            this.navframe_content_managment.Controls.Add(this.navigationPage6);
-            this.navframe_content_managment.Controls.Add(this.navigationPage7);
-            this.navframe_content_managment.Location = new System.Drawing.Point(0, 56);
+            this.navframe_content_managment.Controls.Add(this.page_ccq);
+            this.navframe_content_managment.Controls.Add(this.page_xlk);
+            this.navframe_content_managment.Location = new System.Drawing.Point(1, 48);
             this.navframe_content_managment.Name = "navframe_content_managment";
             this.navframe_content_managment.Pages.AddRange(new DevExpress.XtraBars.Navigation.NavigationPageBase[] {
             this.navigationPage1,
@@ -243,67 +281,58 @@
             this.navigationPage3,
             this.navigationPage4,
             this.navigationPage5,
-            this.navigationPage6,
-            this.navigationPage7});
+            this.page_ccq,
+            this.page_xlk});
             this.navframe_content_managment.SelectedPage = this.page_tinbao;
-            this.navframe_content_managment.Size = new System.Drawing.Size(1011, 379);
+            this.navframe_content_managment.Size = new System.Drawing.Size(1021, 384);
             this.navframe_content_managment.TabIndex = 0;
             this.navframe_content_managment.Text = "navigationFrame1";
             this.navframe_content_managment.TransitionType = DevExpress.Utils.Animation.Transitions.Dissolve;
             // 
             // navigationPage1
             // 
+            this.navigationPage1.Caption = "navigationPage1";
             this.navigationPage1.Name = "navigationPage1";
-            this.navigationPage1.Size = new System.Drawing.Size(1011, 379);
+            this.navigationPage1.Size = new System.Drawing.Size(1021, 384);
             // 
             // page_tinbao
             // 
+            this.page_tinbao.Caption = "page_tinbao";
             this.page_tinbao.Controls.Add(this.gridcontrol_tinbao);
             this.page_tinbao.Name = "page_tinbao";
-            this.page_tinbao.Size = new System.Drawing.Size(1011, 379);
-            // 
-            // navigationPage3
-            // 
-            this.navigationPage3.Name = "navigationPage3";
-            this.navigationPage3.Size = new System.Drawing.Size(1011, 379);
-            // 
-            // navigationPage4
-            // 
-            this.navigationPage4.Name = "navigationPage4";
-            this.navigationPage4.Size = new System.Drawing.Size(1011, 379);
-            // 
-            // navigationPage5
-            // 
-            this.navigationPage5.Name = "navigationPage5";
-            this.navigationPage5.Size = new System.Drawing.Size(1011, 379);
-            // 
-            // navigationPage6
-            // 
-            this.navigationPage6.Name = "navigationPage6";
-            this.navigationPage6.Size = new System.Drawing.Size(1011, 379);
-            // 
-            // navigationPage7
-            // 
-            this.navigationPage7.Name = "navigationPage7";
-            this.navigationPage7.Size = new System.Drawing.Size(1011, 379);
+            this.page_tinbao.Size = new System.Drawing.Size(1021, 384);
             // 
             // gridcontrol_tinbao
             // 
             this.gridcontrol_tinbao.DataSource = this.tinBaoBindingSource;
             this.gridcontrol_tinbao.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridcontrol_tinbao.Location = new System.Drawing.Point(0, 0);
-            this.gridcontrol_tinbao.MainView = this.layoutView1;
+            this.gridcontrol_tinbao.MainView = this.gridView1;
             this.gridcontrol_tinbao.Name = "gridcontrol_tinbao";
-            this.gridcontrol_tinbao.Size = new System.Drawing.Size(1011, 379);
+            this.gridcontrol_tinbao.Size = new System.Drawing.Size(1021, 384);
             this.gridcontrol_tinbao.TabIndex = 0;
             this.gridcontrol_tinbao.UseEmbeddedNavigator = true;
             this.gridcontrol_tinbao.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
-            this.layoutView1});
+            this.gridView1});
             // 
-            // layoutView1
+            // tinBaoBindingSource
             // 
-            this.layoutView1.CardMinSize = new System.Drawing.Size(200, 400);
-            this.layoutView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.LayoutViewColumn[] {
+            this.tinBaoBindingSource.DataMember = "TinBao";
+            this.tinBaoBindingSource.DataSource = this.qLTBDataSet2BindingSource;
+            // 
+            // qLTBDataSet2BindingSource
+            // 
+            this.qLTBDataSet2BindingSource.DataSource = this.qLTBDataSet2;
+            this.qLTBDataSet2BindingSource.Position = 0;
+            // 
+            // qLTBDataSet2
+            // 
+            this.qLTBDataSet2.DataSetName = "QLTBDataSet2";
+            this.qLTBDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // gridView1
+            // 
+            this.gridView1.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
             this.colSoTinBao,
             this.colNgayNhan,
             this.colNoiDung,
@@ -311,177 +340,489 @@
             this.colDiaBan,
             this.colGhiChu,
             this.colKetQua});
-            this.layoutView1.GridControl = this.gridcontrol_tinbao;
-            this.layoutView1.Name = "layoutView1";
-            this.layoutView1.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.True;
-            this.layoutView1.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.True;
-            this.layoutView1.OptionsBehavior.AllowRuntimeCustomization = false;
-            this.layoutView1.OptionsFind.AlwaysVisible = true;
-            this.layoutView1.OptionsLayout.Columns.StoreAllOptions = true;
-            this.layoutView1.OptionsLayout.Columns.StoreAppearance = true;
-            this.layoutView1.OptionsLayout.StoreAllOptions = true;
-            this.layoutView1.OptionsLayout.StoreAppearance = true;
-            this.layoutView1.TemplateCard = this.layoutViewCard1;
+            this.gridView1.GridControl = this.gridcontrol_tinbao;
+            this.gridView1.Name = "gridView1";
+            this.gridView1.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.True;
+            this.gridView1.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.True;
+            this.gridView1.OptionsBehavior.EditingMode = DevExpress.XtraGrid.Views.Grid.GridEditingMode.EditForm;
+            this.gridView1.OptionsFind.AlwaysVisible = true;
+            this.gridView1.OptionsLayout.Columns.StoreAllOptions = true;
+            this.gridView1.OptionsLayout.Columns.StoreAppearance = true;
+            this.gridView1.OptionsLayout.StoreAllOptions = true;
+            this.gridView1.OptionsLayout.StoreAppearance = true;
+            this.gridView1.ShowingEditor += new System.ComponentModel.CancelEventHandler(this.gridView1_ShowingEditor);
+            this.gridView1.InitNewRow += new DevExpress.XtraGrid.Views.Grid.InitNewRowEventHandler(this.gridView1_InitNewRow);
             // 
-            // layoutViewCard1
+            // colSoTinBao
             // 
-            this.layoutViewCard1.HeaderButtonsLocation = DevExpress.Utils.GroupElementLocation.AfterText;
-            this.layoutViewCard1.Items.AddRange(new DevExpress.XtraLayout.BaseLayoutItem[] {
-            this.layoutViewField_colSoTinBao,
-            this.layoutViewField_colNgayNhan,
-            this.layoutViewField_colNoiDung,
-            this.layoutViewField_colTinhTrang,
-            this.layoutViewField_colDiaBan,
-            this.layoutViewField_colGhiChu,
-            this.layoutViewField_colKetQua});
-            this.layoutViewCard1.Name = "layoutViewCard1";
+            this.colSoTinBao.FieldName = "SoTinBao";
+            this.colSoTinBao.Name = "colSoTinBao";
+            this.colSoTinBao.OptionsColumn.AllowEdit = false;
+            this.colSoTinBao.OptionsEditForm.Visible = DevExpress.Utils.DefaultBoolean.False;
+            this.colSoTinBao.Visible = true;
+            this.colSoTinBao.VisibleIndex = 0;
             // 
-            // qLTBDataSet2
+            // colNgayNhan
             // 
-            this.qLTBDataSet2.DataSetName = "QLTBDataSet2";
-            this.qLTBDataSet2.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.colNgayNhan.FieldName = "NgayNhan";
+            this.colNgayNhan.Name = "colNgayNhan";
+            this.colNgayNhan.Visible = true;
+            this.colNgayNhan.VisibleIndex = 1;
             // 
-            // qLTBDataSet2BindingSource
+            // colNoiDung
             // 
-            this.qLTBDataSet2BindingSource.DataSource = this.qLTBDataSet2;
-            this.qLTBDataSet2BindingSource.Position = 0;
+            this.colNoiDung.FieldName = "NoiDung";
+            this.colNoiDung.Name = "colNoiDung";
+            this.colNoiDung.Visible = true;
+            this.colNoiDung.VisibleIndex = 2;
             // 
-            // tinBaoBindingSource
+            // colTinhTrang
             // 
-            this.tinBaoBindingSource.DataMember = "TinBao";
-            this.tinBaoBindingSource.DataSource = this.qLTBDataSet2BindingSource;
+            this.colTinhTrang.FieldName = "TinhTrang";
+            this.colTinhTrang.Name = "colTinhTrang";
+            this.colTinhTrang.OptionsColumn.AllowEdit = false;
+            this.colTinhTrang.OptionsEditForm.Visible = DevExpress.Utils.DefaultBoolean.False;
+            this.colTinhTrang.Visible = true;
+            this.colTinhTrang.VisibleIndex = 3;
+            // 
+            // colDiaBan
+            // 
+            this.colDiaBan.FieldName = "DiaBan";
+            this.colDiaBan.Name = "colDiaBan";
+            this.colDiaBan.Visible = true;
+            this.colDiaBan.VisibleIndex = 4;
+            // 
+            // colGhiChu
+            // 
+            this.colGhiChu.FieldName = "GhiChu";
+            this.colGhiChu.Name = "colGhiChu";
+            this.colGhiChu.Visible = true;
+            this.colGhiChu.VisibleIndex = 5;
+            // 
+            // colKetQua
+            // 
+            this.colKetQua.FieldName = "KetQua";
+            this.colKetQua.Name = "colKetQua";
+            this.colKetQua.Visible = true;
+            this.colKetQua.VisibleIndex = 6;
+            // 
+            // navigationPage3
+            // 
+            this.navigationPage3.Caption = "navigationPage3";
+            this.navigationPage3.Name = "navigationPage3";
+            this.navigationPage3.Size = new System.Drawing.Size(1021, 384);
+            // 
+            // navigationPage4
+            // 
+            this.navigationPage4.Caption = "navigationPage4";
+            this.navigationPage4.Name = "navigationPage4";
+            this.navigationPage4.Size = new System.Drawing.Size(1021, 384);
+            // 
+            // navigationPage5
+            // 
+            this.navigationPage5.Caption = "navigationPage5";
+            this.navigationPage5.Name = "navigationPage5";
+            this.navigationPage5.Size = new System.Drawing.Size(1021, 384);
+            // 
+            // page_ccq
+            // 
+            this.page_ccq.Caption = "page_ccq";
+            this.page_ccq.Controls.Add(this.gridControl_ccq);
+            this.page_ccq.Name = "page_ccq";
+            this.page_ccq.Size = new System.Drawing.Size(1021, 384);
+            // 
+            // gridControl_ccq
+            // 
+            this.gridControl_ccq.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridControl_ccq.DataMember = "ChuyenCoQuan";
+            this.gridControl_ccq.DataSource = this.qltbDataSet21;
+            this.gridControl_ccq.Location = new System.Drawing.Point(0, 3);
+            this.gridControl_ccq.MainView = this.gridView2;
+            this.gridControl_ccq.Name = "gridControl_ccq";
+            this.gridControl_ccq.Size = new System.Drawing.Size(1018, 398);
+            this.gridControl_ccq.TabIndex = 0;
+            this.gridControl_ccq.UseEmbeddedNavigator = true;
+            this.gridControl_ccq.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView2});
+            // 
+            // qltbDataSet21
+            // 
+            this.qltbDataSet21.DataSetName = "QLTBDataSet2";
+            this.qltbDataSet21.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // gridView2
+            // 
+            this.gridView2.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colSoQuyetDinh,
+            this.colCanBo,
+            this.colNgayXuLy,
+            this.colSoTinBao1,
+            this.colCoQuanChuyen});
+            this.gridView2.GridControl = this.gridControl_ccq;
+            this.gridView2.Name = "gridView2";
+            this.gridView2.OptionsFind.AlwaysVisible = true;
+            // 
+            // colSoQuyetDinh
+            // 
+            this.colSoQuyetDinh.FieldName = "SoQuyetDinh";
+            this.colSoQuyetDinh.Name = "colSoQuyetDinh";
+            this.colSoQuyetDinh.Visible = true;
+            this.colSoQuyetDinh.VisibleIndex = 0;
+            // 
+            // colCanBo
+            // 
+            this.colCanBo.FieldName = "CanBo";
+            this.colCanBo.Name = "colCanBo";
+            this.colCanBo.Visible = true;
+            this.colCanBo.VisibleIndex = 1;
+            // 
+            // colNgayXuLy
+            // 
+            this.colNgayXuLy.FieldName = "NgayXuLy";
+            this.colNgayXuLy.Name = "colNgayXuLy";
+            this.colNgayXuLy.Visible = true;
+            this.colNgayXuLy.VisibleIndex = 2;
+            // 
+            // colSoTinBao1
+            // 
+            this.colSoTinBao1.FieldName = "SoTinBao";
+            this.colSoTinBao1.Name = "colSoTinBao1";
+            this.colSoTinBao1.Visible = true;
+            this.colSoTinBao1.VisibleIndex = 3;
+            // 
+            // colCoQuanChuyen
+            // 
+            this.colCoQuanChuyen.FieldName = "CoQuanChuyen";
+            this.colCoQuanChuyen.Name = "colCoQuanChuyen";
+            this.colCoQuanChuyen.Visible = true;
+            this.colCoQuanChuyen.VisibleIndex = 4;
+            // 
+            // page_xlk
+            // 
+            this.page_xlk.Caption = "page_xlk";
+            this.page_xlk.Controls.Add(this.gridControl_xlk);
+            this.page_xlk.Name = "page_xlk";
+            this.page_xlk.Size = new System.Drawing.Size(1021, 384);
+            // 
+            // gridControl_xlk
+            // 
+            this.gridControl_xlk.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.gridControl_xlk.DataMember = "XuLyKhac";
+            this.gridControl_xlk.DataSource = this.qltbDataSet22;
+            this.gridControl_xlk.Location = new System.Drawing.Point(-1, 0);
+            this.gridControl_xlk.MainView = this.gridView3;
+            this.gridControl_xlk.Name = "gridControl_xlk";
+            this.gridControl_xlk.Size = new System.Drawing.Size(1021, 387);
+            this.gridControl_xlk.TabIndex = 0;
+            this.gridControl_xlk.UseEmbeddedNavigator = true;
+            this.gridControl_xlk.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
+            this.gridView3});
+            // 
+            // qltbDataSet22
+            // 
+            this.qltbDataSet22.DataSetName = "QLTBDataSet2";
+            this.qltbDataSet22.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // gridView3
+            // 
+            this.gridView3.Columns.AddRange(new DevExpress.XtraGrid.Columns.GridColumn[] {
+            this.colSoQuyetDinh1,
+            this.colCanBo1,
+            this.colNgayXuLy1,
+            this.colSoTinBao2,
+            this.colNoiDung1});
+            this.gridView3.GridControl = this.gridControl_xlk;
+            this.gridView3.Name = "gridView3";
+            this.gridView3.OptionsFind.AlwaysVisible = true;
+            this.gridView3.InitNewRow += new DevExpress.XtraGrid.Views.Grid.InitNewRowEventHandler(this.gridView3_InitNewRow);
+            // 
+            // colSoQuyetDinh1
+            // 
+            this.colSoQuyetDinh1.FieldName = "SoQuyetDinh";
+            this.colSoQuyetDinh1.Name = "colSoQuyetDinh1";
+            this.colSoQuyetDinh1.OptionsColumn.AllowEdit = false;
+            this.colSoQuyetDinh1.Visible = true;
+            this.colSoQuyetDinh1.VisibleIndex = 0;
+            // 
+            // colCanBo1
+            // 
+            this.colCanBo1.FieldName = "CanBo";
+            this.colCanBo1.Name = "colCanBo1";
+            this.colCanBo1.OptionsColumn.AllowEdit = false;
+            this.colCanBo1.Visible = true;
+            this.colCanBo1.VisibleIndex = 1;
+            // 
+            // colNgayXuLy1
+            // 
+            this.colNgayXuLy1.FieldName = "NgayXuLy";
+            this.colNgayXuLy1.Name = "colNgayXuLy1";
+            this.colNgayXuLy1.OptionsColumn.AllowEdit = false;
+            this.colNgayXuLy1.Visible = true;
+            this.colNgayXuLy1.VisibleIndex = 2;
+            // 
+            // colSoTinBao2
+            // 
+            this.colSoTinBao2.FieldName = "SoTinBao";
+            this.colSoTinBao2.Name = "colSoTinBao2";
+            this.colSoTinBao2.OptionsColumn.AllowEdit = false;
+            this.colSoTinBao2.Visible = true;
+            this.colSoTinBao2.VisibleIndex = 3;
+            // 
+            // colNoiDung1
+            // 
+            this.colNoiDung1.FieldName = "NoiDung";
+            this.colNoiDung1.Name = "colNoiDung1";
+            this.colNoiDung1.OptionsEditForm.Visible = DevExpress.Utils.DefaultBoolean.True;
+            this.colNoiDung1.Visible = true;
+            this.colNoiDung1.VisibleIndex = 4;
+            // 
+            // menutinbao1
+            // 
+            this.menutinbao1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lưuToolStripMenuItem,
+            this.thêmToolStripMenuItem,
+            this.sửaToolStripMenuItem,
+            this.xóaToolStripMenuItem,
+            this.xuấtExcelToolStripMenuItem});
+            this.menutinbao1.Location = new System.Drawing.Point(0, 24);
+            this.menutinbao1.Name = "menutinbao1";
+            this.menutinbao1.Size = new System.Drawing.Size(1021, 24);
+            this.menutinbao1.TabIndex = 1;
+            this.menutinbao1.Text = "menuStrip1";
+            // 
+            // lưuToolStripMenuItem
+            // 
+            this.lưuToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.lưuToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("lưuToolStripMenuItem.Image")));
+            this.lưuToolStripMenuItem.Name = "lưuToolStripMenuItem";
+            this.lưuToolStripMenuItem.Size = new System.Drawing.Size(28, 20);
+            this.lưuToolStripMenuItem.Click += new System.EventHandler(this.lưuToolStripMenuItem_Click);
+            // 
+            // thêmToolStripMenuItem
+            // 
+            this.thêmToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.thêmToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("thêmToolStripMenuItem.Image")));
+            this.thêmToolStripMenuItem.Name = "thêmToolStripMenuItem";
+            this.thêmToolStripMenuItem.Size = new System.Drawing.Size(28, 20);
+            this.thêmToolStripMenuItem.Text = "Thêm";
+            this.thêmToolStripMenuItem.Click += new System.EventHandler(this.thêmToolStripMenuItem_Click);
+            // 
+            // sửaToolStripMenuItem
+            // 
+            this.sửaToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.sửaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sửaToolStripMenuItem.Image")));
+            this.sửaToolStripMenuItem.Name = "sửaToolStripMenuItem";
+            this.sửaToolStripMenuItem.Size = new System.Drawing.Size(28, 20);
+            this.sửaToolStripMenuItem.Text = "Sửa";
+            this.sửaToolStripMenuItem.Click += new System.EventHandler(this.sửaToolStripMenuItem_Click);
+            // 
+            // xóaToolStripMenuItem
+            // 
+            this.xóaToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.xóaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("xóaToolStripMenuItem.Image")));
+            this.xóaToolStripMenuItem.Name = "xóaToolStripMenuItem";
+            this.xóaToolStripMenuItem.Size = new System.Drawing.Size(28, 20);
+            this.xóaToolStripMenuItem.Text = "Xóa";
+            this.xóaToolStripMenuItem.Click += new System.EventHandler(this.xóaToolStripMenuItem_Click);
+            // 
+            // xuấtExcelToolStripMenuItem
+            // 
+            this.xuấtExcelToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.xuấtExcelToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("xuấtExcelToolStripMenuItem.Image")));
+            this.xuấtExcelToolStripMenuItem.Name = "xuấtExcelToolStripMenuItem";
+            this.xuấtExcelToolStripMenuItem.Size = new System.Drawing.Size(28, 20);
+            this.xuấtExcelToolStripMenuItem.Text = "Xuất Excel";
+            this.xuấtExcelToolStripMenuItem.Click += new System.EventHandler(this.xuấtExcelToolStripMenuItem_Click);
+            // 
+            // menutinbao2
+            // 
+            this.menutinbao2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.fileToolStripMenuItem1,
+            this.nghiệpVụToolStripMenuItem1});
+            this.menutinbao2.Location = new System.Drawing.Point(0, 0);
+            this.menutinbao2.Name = "menutinbao2";
+            this.menutinbao2.Size = new System.Drawing.Size(1021, 24);
+            this.menutinbao2.TabIndex = 2;
+            this.menutinbao2.Text = "menuStrip2";
+            // 
+            // fileToolStripMenuItem1
+            // 
+            this.fileToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lưuToolStripMenuItem1,
+            this.thêmToolStripMenuItem1,
+            this.sửaToolStripMenuItem1,
+            this.xóaToolStripMenuItem1,
+            this.xuấtExcelToolStripMenuItem1});
+            this.fileToolStripMenuItem1.Name = "fileToolStripMenuItem1";
+            this.fileToolStripMenuItem1.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem1.Text = "File";
+            // 
+            // lưuToolStripMenuItem1
+            // 
+            this.lưuToolStripMenuItem1.Name = "lưuToolStripMenuItem1";
+            this.lưuToolStripMenuItem1.Size = new System.Drawing.Size(127, 22);
+            this.lưuToolStripMenuItem1.Text = "Lưu";
+            this.lưuToolStripMenuItem1.Click += new System.EventHandler(this.lưuToolStripMenuItem_Click);
+            // 
+            // thêmToolStripMenuItem1
+            // 
+            this.thêmToolStripMenuItem1.Name = "thêmToolStripMenuItem1";
+            this.thêmToolStripMenuItem1.Size = new System.Drawing.Size(127, 22);
+            this.thêmToolStripMenuItem1.Text = "Thêm";
+            this.thêmToolStripMenuItem1.Click += new System.EventHandler(this.thêmToolStripMenuItem_Click);
+            // 
+            // sửaToolStripMenuItem1
+            // 
+            this.sửaToolStripMenuItem1.Name = "sửaToolStripMenuItem1";
+            this.sửaToolStripMenuItem1.Size = new System.Drawing.Size(127, 22);
+            this.sửaToolStripMenuItem1.Text = "Sửa";
+            this.sửaToolStripMenuItem1.Click += new System.EventHandler(this.sửaToolStripMenuItem_Click);
+            // 
+            // xóaToolStripMenuItem1
+            // 
+            this.xóaToolStripMenuItem1.Name = "xóaToolStripMenuItem1";
+            this.xóaToolStripMenuItem1.Size = new System.Drawing.Size(127, 22);
+            this.xóaToolStripMenuItem1.Text = "Xóa";
+            this.xóaToolStripMenuItem1.Click += new System.EventHandler(this.xóaToolStripMenuItem_Click);
+            // 
+            // xuấtExcelToolStripMenuItem1
+            // 
+            this.xuấtExcelToolStripMenuItem1.Name = "xuấtExcelToolStripMenuItem1";
+            this.xuấtExcelToolStripMenuItem1.Size = new System.Drawing.Size(127, 22);
+            this.xuấtExcelToolStripMenuItem1.Text = "Xuất Excel";
+            this.xuấtExcelToolStripMenuItem1.Click += new System.EventHandler(this.btn_xuatexcel_Click);
+            // 
+            // nghiệpVụToolStripMenuItem1
+            // 
+            this.nghiệpVụToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.khởiTốToolStripMenuItem,
+            this.khôngKhởiTốToolStripMenuItem,
+            this.xửPhạtHànhChínhToolStripMenuItem,
+            this.chuyểnCơQuanToolStripMenuItem,
+            this.xửLýKhácToolStripMenuItem});
+            this.nghiệpVụToolStripMenuItem1.Name = "nghiệpVụToolStripMenuItem1";
+            this.nghiệpVụToolStripMenuItem1.Size = new System.Drawing.Size(75, 20);
+            this.nghiệpVụToolStripMenuItem1.Text = "Nghiệp Vụ";
+            // 
+            // khởiTốToolStripMenuItem
+            // 
+            this.khởiTốToolStripMenuItem.Name = "khởiTốToolStripMenuItem";
+            this.khởiTốToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.khởiTốToolStripMenuItem.Text = "Khởi Tố";
+            // 
+            // khôngKhởiTốToolStripMenuItem
+            // 
+            this.khôngKhởiTốToolStripMenuItem.Name = "khôngKhởiTốToolStripMenuItem";
+            this.khôngKhởiTốToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.khôngKhởiTốToolStripMenuItem.Text = "Không Khởi Tố";
+            // 
+            // xửPhạtHànhChínhToolStripMenuItem
+            // 
+            this.xửPhạtHànhChínhToolStripMenuItem.Name = "xửPhạtHànhChínhToolStripMenuItem";
+            this.xửPhạtHànhChínhToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.xửPhạtHànhChínhToolStripMenuItem.Text = "Xử Phạt Hành Chính";
+            // 
+            // chuyểnCơQuanToolStripMenuItem
+            // 
+            this.chuyểnCơQuanToolStripMenuItem.Name = "chuyểnCơQuanToolStripMenuItem";
+            this.chuyểnCơQuanToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.chuyểnCơQuanToolStripMenuItem.Text = "Chuyển Cơ Quan";
+            // 
+            // xửLýKhácToolStripMenuItem
+            // 
+            this.xửLýKhácToolStripMenuItem.Name = "xửLýKhácToolStripMenuItem";
+            this.xửLýKhácToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
+            this.xửLýKhácToolStripMenuItem.Text = "Xử Lý Khác";
+            this.xửLýKhácToolStripMenuItem.Click += new System.EventHandler(this.xửLýKhácToolStripMenuItem_Click);
             // 
             // tinBaoTableAdapter
             // 
             this.tinBaoTableAdapter.ClearBeforeFill = true;
             // 
-            // colSoTinBao
+            // tinBaoTableAdapter1
             // 
-            this.colSoTinBao.FieldName = "SoTinBao";
-            this.colSoTinBao.LayoutViewField = this.layoutViewField_colSoTinBao;
-            this.colSoTinBao.Name = "colSoTinBao";
+            this.tinBaoTableAdapter1.ClearBeforeFill = true;
             // 
-            // colNgayNhan
+            // label_tentieude
             // 
-            this.colNgayNhan.FieldName = "NgayNhan";
-            this.colNgayNhan.LayoutViewField = this.layoutViewField_colNgayNhan;
-            this.colNgayNhan.Name = "colNgayNhan";
+            this.label_tentieude.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.label_tentieude.Appearance.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.label_tentieude.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label_tentieude.Appearance.Options.UseBackColor = true;
+            this.label_tentieude.Appearance.Options.UseFont = true;
+            this.label_tentieude.AutoSizeMode = DevExpress.XtraEditors.LabelAutoSizeMode.None;
+            this.label_tentieude.Location = new System.Drawing.Point(51, 55);
+            this.label_tentieude.Name = "label_tentieude";
+            this.label_tentieude.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.label_tentieude.Size = new System.Drawing.Size(1018, 37);
+            this.label_tentieude.TabIndex = 5;
+            this.label_tentieude.Text = "Quản Lý Tin Báo";
             // 
-            // colNoiDung
+            // xuatExcelDialog
             // 
-            this.colNoiDung.FieldName = "NoiDung";
-            this.colNoiDung.LayoutViewField = this.layoutViewField_colNoiDung;
-            this.colNoiDung.Name = "colNoiDung";
+            this.xuatExcelDialog.Filter = "Excel|*.xls|Excel 2010|*.xlsx";
             // 
-            // colTinhTrang
+            // imageList1
             // 
-            this.colTinhTrang.FieldName = "TinhTrang";
-            this.colTinhTrang.LayoutViewField = this.layoutViewField_colTinhTrang;
-            this.colTinhTrang.Name = "colTinhTrang";
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "Add File-16.png");
+            this.imageList1.Images.SetKeyName(1, "Delete-16.png");
+            this.imageList1.Images.SetKeyName(2, "Edit File-16.png");
+            this.imageList1.Images.SetKeyName(3, "MS Excel-16.png");
+            this.imageList1.Images.SetKeyName(4, "Save.png");
             // 
-            // colDiaBan
+            // chuyenCoQuanTableAdapter1
             // 
-            this.colDiaBan.FieldName = "DiaBan";
-            this.colDiaBan.LayoutViewField = this.layoutViewField_colDiaBan;
-            this.colDiaBan.Name = "colDiaBan";
+            this.chuyenCoQuanTableAdapter1.ClearBeforeFill = true;
             // 
-            // colGhiChu
+            // xuLyKhacTableAdapter1
             // 
-            this.colGhiChu.FieldName = "GhiChu";
-            this.colGhiChu.LayoutViewField = this.layoutViewField_colGhiChu;
-            this.colGhiChu.Name = "colGhiChu";
-            // 
-            // colKetQua
-            // 
-            this.colKetQua.FieldName = "KetQua";
-            this.colKetQua.LayoutViewField = this.layoutViewField_colKetQua;
-            this.colKetQua.Name = "colKetQua";
-            // 
-            // layoutViewField_colSoTinBao
-            // 
-            this.layoutViewField_colSoTinBao.EditorPreferredWidth = 138;
-            this.layoutViewField_colSoTinBao.Location = new System.Drawing.Point(0, 0);
-            this.layoutViewField_colSoTinBao.Name = "layoutViewField_colSoTinBao";
-            this.layoutViewField_colSoTinBao.Size = new System.Drawing.Size(203, 20);
-            this.layoutViewField_colSoTinBao.TextSize = new System.Drawing.Size(57, 13);
-            // 
-            // layoutViewField_colNgayNhan
-            // 
-            this.layoutViewField_colNgayNhan.EditorPreferredWidth = 138;
-            this.layoutViewField_colNgayNhan.Location = new System.Drawing.Point(0, 20);
-            this.layoutViewField_colNgayNhan.Name = "layoutViewField_colNgayNhan";
-            this.layoutViewField_colNgayNhan.Size = new System.Drawing.Size(203, 20);
-            this.layoutViewField_colNgayNhan.TextSize = new System.Drawing.Size(57, 13);
-            // 
-            // layoutViewField_colNoiDung
-            // 
-            this.layoutViewField_colNoiDung.EditorPreferredWidth = 138;
-            this.layoutViewField_colNoiDung.Location = new System.Drawing.Point(0, 40);
-            this.layoutViewField_colNoiDung.Name = "layoutViewField_colNoiDung";
-            this.layoutViewField_colNoiDung.Size = new System.Drawing.Size(203, 20);
-            this.layoutViewField_colNoiDung.TextSize = new System.Drawing.Size(57, 13);
-            // 
-            // layoutViewField_colTinhTrang
-            // 
-            this.layoutViewField_colTinhTrang.EditorPreferredWidth = 138;
-            this.layoutViewField_colTinhTrang.Location = new System.Drawing.Point(0, 60);
-            this.layoutViewField_colTinhTrang.Name = "layoutViewField_colTinhTrang";
-            this.layoutViewField_colTinhTrang.Size = new System.Drawing.Size(203, 20);
-            this.layoutViewField_colTinhTrang.TextSize = new System.Drawing.Size(57, 13);
-            // 
-            // layoutViewField_colDiaBan
-            // 
-            this.layoutViewField_colDiaBan.EditorPreferredWidth = 138;
-            this.layoutViewField_colDiaBan.Location = new System.Drawing.Point(0, 80);
-            this.layoutViewField_colDiaBan.Name = "layoutViewField_colDiaBan";
-            this.layoutViewField_colDiaBan.Size = new System.Drawing.Size(203, 20);
-            this.layoutViewField_colDiaBan.TextSize = new System.Drawing.Size(57, 13);
-            // 
-            // layoutViewField_colGhiChu
-            // 
-            this.layoutViewField_colGhiChu.EditorPreferredWidth = 138;
-            this.layoutViewField_colGhiChu.Location = new System.Drawing.Point(0, 100);
-            this.layoutViewField_colGhiChu.Name = "layoutViewField_colGhiChu";
-            this.layoutViewField_colGhiChu.Size = new System.Drawing.Size(203, 20);
-            this.layoutViewField_colGhiChu.TextSize = new System.Drawing.Size(57, 13);
-            // 
-            // layoutViewField_colKetQua
-            // 
-            this.layoutViewField_colKetQua.EditorPreferredWidth = 138;
-            this.layoutViewField_colKetQua.Location = new System.Drawing.Point(0, 120);
-            this.layoutViewField_colKetQua.Name = "layoutViewField_colKetQua";
-            this.layoutViewField_colKetQua.Size = new System.Drawing.Size(203, 20);
-            this.layoutViewField_colKetQua.TextSize = new System.Drawing.Size(57, 13);
+            this.xuLyKhacTableAdapter1.ClearBeforeFill = true;
             // 
             // FormQuanLi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1068, 523);
+            this.Controls.Add(this.label_tentieude);
             this.Controls.Add(this.panel_content);
             this.Controls.Add(this.icon_managment);
             this.Controls.Add(this.simpleButton1);
+            this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menutinbao1;
             this.Name = "FormQuanLi";
             this.Text = "Trình Quản Lý";
+            this.TransparencyKey = System.Drawing.Color.Empty;
             this.Load += new System.EventHandler(this.FormQuanLi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.icon_managment)).EndInit();
             this.panel_content.ResumeLayout(false);
+            this.panel_content.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.navframe_content_managment)).EndInit();
             this.navframe_content_managment.ResumeLayout(false);
             this.page_tinbao.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridcontrol_tinbao)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewCard1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLTBDataSet2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.qLTBDataSet2BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tinBaoBindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colSoTinBao)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colNgayNhan)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colNoiDung)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colTinhTrang)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colDiaBan)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colGhiChu)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.layoutViewField_colKetQua)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLTBDataSet2BindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qLTBDataSet2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
+            this.page_ccq.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl_ccq)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qltbDataSet21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView2)).EndInit();
+            this.page_xlk.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.gridControl_xlk)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.qltbDataSet22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridView3)).EndInit();
+            this.menutinbao1.ResumeLayout(false);
+            this.menutinbao1.PerformLayout();
+            this.menutinbao2.ResumeLayout(false);
+            this.menutinbao2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -504,29 +845,62 @@
         private DevExpress.XtraBars.Navigation.NavigationPage navigationPage3;
         private DevExpress.XtraBars.Navigation.NavigationPage navigationPage4;
         private DevExpress.XtraBars.Navigation.NavigationPage navigationPage5;
-        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage6;
-        private DevExpress.XtraBars.Navigation.NavigationPage navigationPage7;
+        private DevExpress.XtraBars.Navigation.NavigationPage page_ccq;
+        private DevExpress.XtraBars.Navigation.NavigationPage page_xlk;
         private DevExpress.XtraGrid.GridControl gridcontrol_tinbao;
-        private DevExpress.XtraGrid.Views.Layout.LayoutView layoutView1;
-        private DevExpress.XtraGrid.Views.Layout.LayoutViewCard layoutViewCard1;
         private System.Windows.Forms.BindingSource qLTBDataSet2BindingSource;
         private QLTBDataSet2 qLTBDataSet2;
         private System.Windows.Forms.BindingSource tinBaoBindingSource;
         private QLTBDataSet2TableAdapters.TinBaoTableAdapter tinBaoTableAdapter;
-        private DevExpress.XtraGrid.Columns.LayoutViewColumn colSoTinBao;
-        private DevExpress.XtraGrid.Views.Layout.LayoutViewField layoutViewField_colSoTinBao;
-        private DevExpress.XtraGrid.Columns.LayoutViewColumn colNgayNhan;
-        private DevExpress.XtraGrid.Views.Layout.LayoutViewField layoutViewField_colNgayNhan;
-        private DevExpress.XtraGrid.Columns.LayoutViewColumn colNoiDung;
-        private DevExpress.XtraGrid.Views.Layout.LayoutViewField layoutViewField_colNoiDung;
-        private DevExpress.XtraGrid.Columns.LayoutViewColumn colTinhTrang;
-        private DevExpress.XtraGrid.Views.Layout.LayoutViewField layoutViewField_colTinhTrang;
-        private DevExpress.XtraGrid.Columns.LayoutViewColumn colDiaBan;
-        private DevExpress.XtraGrid.Views.Layout.LayoutViewField layoutViewField_colDiaBan;
-        private DevExpress.XtraGrid.Columns.LayoutViewColumn colGhiChu;
-        private DevExpress.XtraGrid.Views.Layout.LayoutViewField layoutViewField_colGhiChu;
-        private DevExpress.XtraGrid.Columns.LayoutViewColumn colKetQua;
-        private DevExpress.XtraGrid.Views.Layout.LayoutViewField layoutViewField_colKetQua;
+        private QLTBDataSet2TableAdapters.TinBaoTableAdapter tinBaoTableAdapter1;
+        private DevExpress.XtraEditors.LabelControl label_tentieude;
+        private System.Windows.Forms.MenuStrip menutinbao1;
+        private System.Windows.Forms.ToolStripMenuItem lưuToolStripMenuItem;
+        private System.Windows.Forms.MenuStrip menutinbao2;
+        private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem nghiệpVụToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem thêmToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sửaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem xóaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem xuấtExcelToolStripMenuItem;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView1;
+        private DevExpress.XtraGrid.Columns.GridColumn colSoTinBao;
+        private DevExpress.XtraGrid.Columns.GridColumn colNgayNhan;
+        private DevExpress.XtraGrid.Columns.GridColumn colNoiDung;
+        private DevExpress.XtraGrid.Columns.GridColumn colTinhTrang;
+        private DevExpress.XtraGrid.Columns.GridColumn colDiaBan;
+        private DevExpress.XtraGrid.Columns.GridColumn colGhiChu;
+        private DevExpress.XtraGrid.Columns.GridColumn colKetQua;
+        private System.Windows.Forms.SaveFileDialog xuatExcelDialog;
+        private System.Windows.Forms.ToolStripMenuItem lưuToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem thêmToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem sửaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem xóaToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem xuấtExcelToolStripMenuItem1;
+        private System.Windows.Forms.ToolStripMenuItem khởiTốToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem khôngKhởiTốToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem xửPhạtHànhChínhToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem chuyểnCơQuanToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem xửLýKhácToolStripMenuItem;
+        private System.Windows.Forms.ImageList imageList1;
+        private DevExpress.XtraGrid.GridControl gridControl_ccq;
+        private QLTBDataSet2 qltbDataSet21;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView2;
+        private DevExpress.XtraGrid.Columns.GridColumn colSoQuyetDinh;
+        private DevExpress.XtraGrid.Columns.GridColumn colCanBo;
+        private DevExpress.XtraGrid.Columns.GridColumn colNgayXuLy;
+        private DevExpress.XtraGrid.Columns.GridColumn colSoTinBao1;
+        private DevExpress.XtraGrid.Columns.GridColumn colCoQuanChuyen;
+        private QLTBDataSet2TableAdapters.ChuyenCoQuanTableAdapter chuyenCoQuanTableAdapter1;
+        private DevExpress.XtraGrid.GridControl gridControl_xlk;
+        private QLTBDataSet2 qltbDataSet22;
+        private DevExpress.XtraGrid.Views.Grid.GridView gridView3;
+        private DevExpress.XtraGrid.Columns.GridColumn colSoQuyetDinh1;
+        private DevExpress.XtraGrid.Columns.GridColumn colCanBo1;
+        private DevExpress.XtraGrid.Columns.GridColumn colNgayXuLy1;
+        private DevExpress.XtraGrid.Columns.GridColumn colSoTinBao2;
+        private DevExpress.XtraGrid.Columns.GridColumn colNoiDung1;
+        private QLTBDataSet2TableAdapters.XuLyKhacTableAdapter xuLyKhacTableAdapter1;
     }
 }
 
