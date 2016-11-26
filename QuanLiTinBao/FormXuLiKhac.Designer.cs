@@ -137,11 +137,11 @@
             // button_taoform
             // 
             this.button_taoform.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button_taoform.Location = new System.Drawing.Point(440, 394);
+            this.button_taoform.Location = new System.Drawing.Point(564, 396);
             this.button_taoform.Name = "button_taoform";
             this.button_taoform.Size = new System.Drawing.Size(97, 30);
             this.button_taoform.TabIndex = 10;
-            this.button_taoform.Text = "Tạo Form";
+            this.button_taoform.Text = "Xử Lý";
             this.button_taoform.UseVisualStyleBackColor = true;
             this.button_taoform.Click += new System.EventHandler(this.button_taoform_Click);
             // 

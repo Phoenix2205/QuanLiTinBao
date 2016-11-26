@@ -1,7 +1,6 @@
 c:\users\vannt\documents\visual studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\bin\Debug\QuanLiTinBao.exe.config
 c:\users\vannt\documents\visual studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\bin\Debug\QuanLiTinBao.exe
 c:\users\vannt\documents\visual studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\bin\Debug\QuanLiTinBao.pdb
-c:\users\vannt\documents\visual studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\obj\Debug\QuanLiTinBao.csprojResolveAssemblyReference.cache
 c:\users\vannt\documents\visual studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\obj\Debug\QuanLiTinBao.FormQuanLi.resources
 c:\users\vannt\documents\visual studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\obj\Debug\QuanLiTinBao.Properties.Resources.resources
 c:\users\vannt\documents\visual studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\obj\Debug\QuanLiTinBao.csproj.GenerateResource.Cache
@@ -109,3 +108,4 @@ c:\users\vannt\documents\visual studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\b
 c:\users\vannt\documents\visual studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\obj\Debug\QuanLiTinBao.exe.licenses
 C:\Users\vannt\Documents\Visual Studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\obj\Debug\QuanLiTinBao.Chuye.resources
 C:\Users\vannt\Documents\Visual Studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\obj\Debug\QuanLiTinBao.FormXuLiKhac.resources
+C:\Users\vannt\Documents\Visual Studio 2015\Projects\QuanLiTinBao\QuanLiTinBao\obj\Debug\QuanLiTinBao.csprojResolveAssemblyReference.cache
